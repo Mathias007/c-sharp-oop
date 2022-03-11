@@ -1,5 +1,10 @@
 ﻿using System;
 
+/* Projekt prostej aplikacji bankowej, wykorzystujący klasy, przygotowany na zajęcia z Programowania Obiektowego sem. II WSB (2021/2022).
+ * Autor rozwiązania: Mateusz Stawowski (https://github.com/Mathias007).
+ * Link do repozytorium zbiorczego: https://github.com/Mathias007/programowanie-obiektowe. 
+ */
+
 namespace Bank
 {
     class Program
