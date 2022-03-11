@@ -1,13 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Bank
 {
-    // UZUPEŁNIĆ KLASĘ
     class Loan
     {
+        private decimal loanState;
+        public decimal LoanState
+        {
+            get { return loanState; }
+            set { loanState = value; }
+        }
+        public Loan(decimal loan)
+        {
+            this.loanState = loan;
+        }
     }
 }
