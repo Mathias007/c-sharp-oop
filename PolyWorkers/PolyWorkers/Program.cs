@@ -13,14 +13,16 @@ namespace PolyWorkers
     {
         static void Main(string[] args)
         {
-            List<Pracownik> lista = new List<Pracownik>();
-            lista.Add(new Sekretarka());
-            lista.Add(new Ochroniarz());
-            lista.Add(new Ksiegowy());
-
-            foreach (var i in lista)
+            List<Worker> workersList = new()
             {
-                i.Pracuj();
+                new Secretary(),
+                new Guard(),
+                new Accountant()
+            };
+
+            foreach (var worker in workersList)
+            {
+                worker.Work();
             }
 
             Console.ReadKey();
