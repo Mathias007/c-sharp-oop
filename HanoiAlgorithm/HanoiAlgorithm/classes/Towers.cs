@@ -3,13 +3,6 @@ using System.Collections.Generic;
 
 namespace HanoiAlgorithm
 {    
-    public enum HanoiStack
-    {
-        FirstStack,
-        SecondStack,
-        ThirdStack,
-    }
-
     class Towers : TowerService, ITowers
     {
         private int _elements;
@@ -37,7 +30,6 @@ namespace HanoiAlgorithm
 
             Console.CursorVisible = false;
 
-            // InitializeStartElements(_elements, _towers[0]);
             HandleHanoiMovement(_elements, 0, 1, 2, _towers, _towerElement, _stop);
 
             CleanElement(18);

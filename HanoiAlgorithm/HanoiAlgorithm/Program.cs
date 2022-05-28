@@ -1,4 +1,17 @@
-﻿using System;
+﻿
+/* Projekt implementujący algorytm Wież Hanoi, przygotowany na zajęcia z Programowania Obiektowego sem. II WSB (2021/2022). * 
+ * Autor rozwiązania: Mateusz Stawowski (https://github.com/Mathias007).
+ * Link do repozytorium zbiorczego: https://github.com/Mathias007/programowanie-obiektowe. 
+ * Uwagi podstawowe:
+   - Główną inspirację stanowiła propozycja implementacji zaprezentowana przez dra K. Jakubczyka (http://kaj.uniwersytetradom.pl/cshf.html), przy czym nn. projekt stanowi jej twórcze rozwinięcie.
+   - Zastosowane zostały takie elementy programowania obiektowego jak dziedziczenie, hermetyzacja, interfejsy, klasy abstrakcyjne. 
+   - Program składa się z dwóch klas abstrakcyjnych: TowerService zawiera metody obejmujące właściwą implementację algorytmu wież Hanoi, natomiast TowersPainter zapewnia graficzną wizualizację działania programu w konsoli.
+   - Klasa Towers korzysta z ww. klas abstrakcyjnych, implementuje także własny interfejs. Podstawowe dane konfiguracyjne (liczba elementów wieży, zatrzymywanie po kolejnych krokach) są personalizowane przy starcie programu przez użytkownika lub ustalone statycznie (tablica stosów, tablica stringów do rysowania elementów).
+   - Na obecnym etapie zrezygnowano z enuma zawierającego oznaczenie stosów elementów wieży oraz metod wypisujących tekstowo kolejne kroki algorytmu, ponieważ zastąpiono je graficzną interpretacją.
+   - Struktura projektu uwzględnia podstawowe katalogi (dla klas oraz dla interfejsów) i zasady nazewnictwa oraz stara się zachować czystość kodu.
+ */
+
+using System;
 using System.Collections.Generic;
 
 namespace HanoiAlgorithm
