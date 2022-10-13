@@ -1,4 +1,4 @@
-# Programowanie obiektowe
+# C# - Programowanie obiektowe
 
 Repozytorium gromadzące zadania wykonywane z Programowania obiektowego w języku C#.
 
